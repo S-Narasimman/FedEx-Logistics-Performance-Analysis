@@ -47,24 +47,6 @@ By tracking the number of shipments over time, this analysis revealed seasonal t
 
 This comparison showed how the value of items shipped varies by the mode of transport. High-value items were often shipped via air due to their time-sensitive nature, while lower-value goods were more commonly transported via sea or ground.
 
-**Multi-variate Analysis:**
-
-**1. Freight Cost by Country, Shipment Mode, and Vendor:**
-
-A multivariate analysis of freight costs revealed significant variations across different countries, shipment modes, and vendors. For example, certain vendors in high-cost regions showed consistently higher freight costs, offering opportunities to renegotiate vendor agreements or explore alternative shipping methods.
-
-**2. Line Item Value vs. Freight Cost by Vendor and Shipment Mode:**
-
-This analysis showed that for some vendors, freight costs were disproportionately high relative to the value of the items being shipped. This could indicate inefficiencies or opportunities for cost reduction, especially in optimizing shipping modes for specific vendors.
-
-**3. Correlation Heatmap:**
-
-A correlation heatmap of numerical variables revealed strong relationships between shipment weight, freight cost, and line item value. This information helps identify which variables have the greatest influence on freight costs, aiding in cost optimization efforts.
-
-**4. Pair Plot:**
-
-A pair plot visualizing relationships between variables like line item value, freight cost, and shipment weight showed how these variables interact. This analysis highlighted clusters of shipments that shared similar e costs, and improve customer satisfaction across its operations.
-
 # **Problem Statement**
 
 The dataset aims to optimize FedEx Logistics' global supply chain by providing detailed insights into purchase orders, shipment methods, vendor agreements, and delivery schedules. With the rise of eCommerce and increasing global distribution demands, analyzing this data will help identify bottlenecks, minimize freight costs, and enhance delivery efficiency. The goal is to streamline operations, improve customer satisfaction, and maintain a competitive edge by ensuring timely deliveries and cost-effective logistics management.
