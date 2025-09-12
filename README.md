@@ -1,59 +1,48 @@
 # FedEx-Logistics-Performance-Analysis
 
 **Optimizing FedEx Logistics Through Data Analysis**
-In today’s fast-paced, globally connected market, FedEx Logistics plays a pivotal role in managing supply chains across various industries and regions. With the rapid growth of eCommerce and global distribution networks, maintaining efficient logistics operations is critical to staying competitive. This project focuses on analyzing data from FedEx Logistics to uncover insights that can optimize shipment processes, minimize costs, and enhance customer satisfaction. The dataset contains information on shipment modes, countries, vendors, line item values, weights, freight costs, delivery delays, and more, allowing for a comprehensive analysis of the company’s logistics performanctisfaction.
 
-**Univariate Analysis**
+In an increasingly interconnected global economy, FedEx Logistics serves as a backbone for supply chain management across multiple industries and regions. With the surge of eCommerce and the growing complexity of international distribution, efficiency in logistics has become essential for maintaining a competitive advantage. This project leverages data from FedEx Logistics to uncover operational insights that can improve shipment processes, reduce costs, and elevate customer satisfaction.
 
-**1. Count of Shipments by Country:**
+The dataset provides a wide-ranging view of logistics performance, incorporating details such as shipment modes, origin and destination countries, vendor activity, line item values, package weights, freight costs, and records of delivery delays. Such comprehensive information allows for both high-level trend identification and granular performance evaluation.
 
-This analysis revealed the distribution of shipments across various countries, helping identify key markets. Countries with the highest shipment volumes represent regions where FedEx may need to allocate more resources to maintain operational efficiency.
+**Univariate Analysis explores:**
 
-**2. Distribution of Shipment Modes:**
+1.   Shipment counts by country
+2.   Distribution of shipment modes
+1.   Average freight costs
+2.   Line item quantity patterns
+1.   Weight distributions
+2.   Vendors with the highest order volumes
 
-Analyzing shipment modes (e.g., Air, Sea, or Ground) showed that air shipments, though faster, were less frequently used due to their higher costs, while sea shipments were more common but associated with longer delivery times. This insight is crucial for balancing cost and speed.
+**Bi-variate Analysis further examines relationships between variables, such as:**
 
-**3. Average Freight Cost:**
-
-The average freight cost per shipment provided insights into the overall cost structure, highlighting the need to optimize the more expensive modes of transport, such as air.
-
-**4. Line Item Quantity Distribution:**
-
-Visualizing the distribution of line item quantities showed that most shipments contained smaller quantities, with larger shipments being less frequent. This can inform future inventory management strategies and order consolidation efforts.
-
-**5. Weight Distribution:**
-
-The weight distribution analysis showed a wide range of shipment weights, indicating the varying scale of deliveries. Heavier shipments tend to incur higher freight costs, emphasizing the need to optimize the shipment of bulk goods.
-
-**6. Vendors with Highest Orders:**
-
-This analysis identified vendors that contributed the most shipments. Understanding which vendors generate the highest order volumes allows FedEx to prioritize relationships and streamline vendor-specific operations.
-
-**Bi-variate Analysis:**
-
-**1. Average Weight by Shipment Mode:**
-
-Comparing the average weight across different shipment modes provided valuable insights into how shipment methods impact weight handling. Sea shipments, for example, typically handled much heavier loads compared to air shipments, which aligns with cost expectations.
-
-**2. Delivery Delays by Shipment Mode:**
-
-Analyzing delivery delays by shipment mode highlighted that air shipments were the least likely to experience delays, while sea shipments often had longer lead times. This data can guide decisions about which shipment mode to use for time-sensitive deliveries.
-
-**3. Total Shipments Over Time:**
-
-By tracking the number of shipments over time, this analysis revealed seasonal trends and fluctuations in demand. Identifying peak shipping periods enables FedEx to allocate resources effectively during high-demand seasons.
-
-**4. Line Item Value Across Different Shipment Modes:**
-
-This comparison showed how the value of items shipped varies by the mode of transport. High-value items were often shipped via air due to their time-sensitive nature, while lower-value goods were more commonly transported via sea or ground.
+1.   Average weight across shipment modes
+2.   Delivery delays by mode of transport
+1.   Shipment volumes over time
+2.   Line item value distribution across different shipment methods
 
 # **Problem Statement**
 
-The dataset aims to optimize FedEx Logistics' global supply chain by providing detailed insights into purchase orders, shipment methods, vendor agreements, and delivery schedules. With the rise of eCommerce and increasing global distribution demands, analyzing this data will help identify bottlenecks, minimize freight costs, and enhance delivery efficiency. The goal is to streamline operations, improve customer satisfaction, and maintain a competitive edge by ensuring timely deliveries and cost-effective logistics management.
+**Problem Statements for FedEx Logistics Performance Analysis**
+
+1.   High Dependency on a Single Shipping Method
+2.   Inconsistent Correlation Between Cost and Service
+1.   Significant and Costly Delivery Delays
+2.   Inefficient Cost Structure
+1.   Geographic Concentration of High-Cost Shipments
+2.   Unpredictable and Volatile Freight Costs
+1.   Suboptimal Vendor Strategy and Performance Management
 
 # **Business Objective**
 
-The business objective is to optimize FedEx Logistics' global supply chain operations by leveraging data insights to improve delivery efficiency, reduce shipping costs, and enhance customer satisfaction. The goal is to identify bottlenecks, streamline processes, and ensure timely and cost-effective deliveries across various regions and industries. This will support FedEx in maintaining a competitive edge in the growing eCommerce and global distribution landscape while delivering value to both the company and its customers.
+The business objective is to optimize FedEx Logistics' global supply chain operations by leveraging data insights.This will support FedEx in maintaining a competitive edge in the growing eCommerce and global distribution landscape while delivering value to both the company and its customers.Main Business Objectives are listed below:
+
+1.   Improve delivery efficiency
+2.   Enhance customer satisfaction
+1.   Identify bottlenecks
+2.   Streamline processes
+1.   Ensure timely Deliveries
 
 ### Import Libraries
 
